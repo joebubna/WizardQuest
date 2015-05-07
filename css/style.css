@@ -1,0 +1,180 @@
+/**
+ * Wizard Quest
+ * Josiah Bubna
+ * ID: 969559402
+ * CS: 313 AI and Game Design
+ * Fall 2012
+ *
+ *  // JDB: Original Code Begin
+ */
+
+/* Main setup of display area */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#cr-stage{
+    position: absolute;
+    left: 50%;
+    margin-left: -450px;
+}
+#interface, #loading{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+
+/* UI Overlay Base */
+.panel{
+    height: 35px;
+    position: absolute;
+    width: 100%;
+}
+.bottom{
+    bottom: 0px;
+}
+.transparent{
+    background: #ffffff;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+}
+
+/* Text */
+div.text{
+    position: absolute; 
+    line-height: 24px;
+    font-size: 12px;
+    color: #ffffff;
+    padding: 5px;
+}
+div.text.center{
+    width: 100%;
+    text-align: center;
+}
+
+/* Bars */
+.bars{
+    position: absolute;
+    padding: 5px;
+    height: auto;
+}
+
+.bars span.text{
+    position: absolute;
+    width: 100%;
+    display: block;
+    text-align: center;
+    line-height: 24px;
+    font-size: 12px;
+    color: #333333;
+}
+
+.bars #mana span.text {
+	color: green;
+	font-weight: bold;
+}
+
+
+/* UI bars. Jquery progressbar method used. */
+#interface .ui-progressbar{
+    background: url(../img/bars.png) 0px 0px no-repeat;
+    width: 178px;
+    height: 24px;
+}
+#interface .red .ui-progressbar-value{
+    display: block;
+    height: 100%;
+    background: url(../img/bars.png) -0px -27px no-repeat;
+}
+#interface .blue .ui-progressbar-value{
+    display: block;
+    height: 100%;
+    background: url(../img/bars.png) -0px -80px no-repeat;
+}
+#interface .green .ui-progressbar-value{
+    display: block;
+    height: 100%;
+    background: url(../img/bars.png) -0px -54px no-repeat;
+}
+
+
+/* Alerts */
+.alert{
+    display:none;
+	font-size: 30px;
+    color: yellow;
+    width: 100%;
+    line-height: 480px;
+    text-align: center;
+}
+
+
+/* Buttons */
+.button {
+    display: none;
+	cursor: pointer;
+    width: 200px;
+    left: 50%;
+    margin-left: -100px;
+    position: absolute;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid #B4B4B4;
+    background: #990000;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    bottom: 20px;
+}
+.button:hover {
+	background: #CD4B00;
+}
+
+
+/* Loading */
+#loading .ui-progressbar{
+    margin: 5px 15px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px ridge #AAAAAA;
+    background: #333333;
+}
+#loading .bars{
+    width:100%;
+    padding:0px;
+    margin:0px;
+}
+#loading .text{
+    color:#ffffff;
+    line-height: 30px;
+}
+#loading .ui-progressbar-value{
+    -moz-border-radius: 5px; /* Firefox */
+    -webkit-border-radius: 5px; /* Safari, Chrome */
+    border-radius: 5px; /* CSS3 */
+    background: #990000;
+    height: 30px;
+    width:100%;
+
+}
+
+
+/* Misc */
+.left{
+    left:0px;
+}
+.right{
+    right:0px;
+}
+.info{
+    text-align: center;
+}
+.clear{
+    clear:both;
+}
+
+/* // JDB: Original Code End */

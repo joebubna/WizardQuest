@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="128" tileheight="128">
+ <tileset firstgid="1" name="Ground" tilewidth="128" tileheight="128">
+  <image source="../img/FloorTiles.png" width="640" height="768"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztk0sO20AMQ7PsMrn/ZdvuAkMUKXnGpgMtBszPE4mPfL9er8+/8w7O/8//kPP+ej7Tz+He0Z5+n46f0bMOeznr8XX0PvK30ovh0Pct68Ex73fP/Yuq9qHi//RiTT+UbnR5O+z5NEW+qX5OL9Zp1A21O8NjD4+IwQcc1XeF42ie7+j90VvGJrpvtM8hyjfKfNa34dHjEfnJehL9BvEcLn0uEZ/o++i3qGsO+z1Ro9wfPUbeZ8+O1jlkr6OsI9+Pv3HY72ka+Y56o/bLYa+nasXHjNvoeUVMEKfj79Fno+e5sJNxQJ0ZTj0OyLcKM/S8w55P0Cjvaj/Q8+i70R4X5rlyz937PF0nz146PLx0eHjp8PDS4eGlw8NLh4eXDg8vHR5eOjy8dHh46fDw0uHhpcPDS4eHlw4PLx0eXjo8vHR4eOnw8NLh4aXDw0uHh5cODy8dHl46PLx0eHjp8PDS4eGlw8NLh4eXDg8vHR5eOjzu028Gw+O+/GefPYUH+sxp7hVzvQ/3fQ5337GP+t1dc6o+stkjbugcc3l1vs72/ur8ZP1QOp69j/7nqv3Us8v/M3zZLiqPu/KVzad0duUeyNMs7+z3WXYQDzRP9H/ZnVdyU+aq5LnbG8WrKo8Oh4wr8uUsN3VOdf4s52pvlAywZxGriq/of9Dp5J/lDN3f4YF60J2/ul/WEeYl+s3xKLt25mezdX3M7q8w7XBA86CjeK90tes723tHjpXeZ//L7mQZZvmt5rvCDc2K3iNGZxXdrWQV+cq6lrFYma9KHzq5VPdVe8A8V16j3mR9cuJRzSXa/8p5s0yx7zuZuGM/5n+Ww24vmCfo7qybCj/kvwsP1Bfki5q5FX1VGLBMoN4/gQfqgfr96r4e/USHMWBdceahfs5ytoNPxouxQL125cH+nzHa1Zdqn9Eu6LUrj9X8dvQjmyHKBMuOcz9Q1twU5T3joDBw5VHRq7mx3LOuKD1/Mo8sZ7t5KB6jPv0aD9SRq3up5F/J09N5ZLldnf+Vv/81Huj1Vb2LvIz6EvVnF487+K3K/xne0f9n/md3r+CRzbDTp2y3ndyr3h+f6+7HeChdvSqvKBsr/6/iezaH6o/CQ+3ZLh5ohsi3aKYVfWQ5VfKjPF/txx08suwxTt19GBe1P1mnlTlX5WBVLzr3MoY7eoN8ZsyyubPX7sq6tLO/UQdYDtRdWKdQTq7wm82s7L+afzTDmb4jPyssr+aCdsv2RzOf6UOVM+tydifjy/q5gk+0g5pH9oySZ5VvdFelJyrjag9ZXpDHnVyiWbOZWM/U/FXnU/5bzRHqedR7lkXU1UyrvVD87vqrPlfhyniw/qgnY1btRbX3LBuV+9FdSkdZfir9iO5Su5L1Re1FZWc2h9qbTh66Oc32U3iwO9U5lTytViXbnTyoWah4hfLMMs9YZfdmjFbldAX36PWO7qB+qHeyTKg9WuGT0vGznFneUY/Uc+bZOfvPX3Q0g/A=
+  </data>
+ </layer>
+ <layer name="Bushes" width="100" height="100">
+  <properties>
+   <property name="components" value="solid"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt0UsKwlAQRcGM3UD8ZP/rNAFH8sBEUA9YBXfWPTrnaZpm+/ku626PvTLvuPnE77/Ro0WPFj1a9Gg50uM02LPRjR77Hekx2rt3jO3twXfo0aJHix4terTo0aJHix4terTo0aJHix4terTo0aJHix4terTo0aJHix4terTo0aJHix4terTo0aJHix4terTo0aJHix4terTo0aJHix4terTo0aJHix4terTo0aJHix4terTo0aJHix4terTo0aJHix4terTo0aJHix4terTo0aJHix4terTo0aJHix4terTo0aJHix4terTo0aJHix4terTo0aJHix4terTo0aJHix4terTo0aJHix4terTo0aJHix4terTo0aJHy9ZiWXe1xLYed5rzKmc=
+  </data>
+ </layer>
+ <layer name="Details" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt0bEJACAQBMEPbcL+2/z8IxGUC2ZgK9iqM+sy3vAjix9Z/MjiRxY/8u0RAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/zVg5gMV
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+/**
+ * Wizard Quest
+ * Josiah Bubna
+ * ID: 969559402
+ * CS: 313 AI and Game Design
+ * Fall 2012
+ */
+ -->
+<head>	
+	<script type="text/javascript" src="crafty.js"></script>
+    <script>var game_path = location.href.lastIndexOf("/") !== -1 ? location.href.substring(0, location.href.lastIndexOf("/") + 1) : location.href;</script>
+	<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="jquery.min.js"><\/script>')</script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
+	<script>window.jQuery || document.write('<script src="jquery-ui.min.js"><\/script>')</script>
+	
+	<script type="text/javascript" src="map.js"></script>
+	<script type="text/javascript" src="sprites.js"></script>
+	<script type="text/javascript" src="sounds.js"></script>    
+	<script type="text/javascript" src="weapons.js"></script>
+	<script type="text/javascript" src="effects.js"></script>
+	<script type="text/javascript" src="npc.js"></script>
+	<script type="text/javascript" src="player.js"></script>	
+	<script type="text/javascript" src="scenes.js"></script>
+	<script type="text/javascript" src="game.js"></script>
+	<link type="text/css" href="css/style.css" rel="stylesheet"> 
+</head>
+<body>
+<div id="cr-stage">
+	<div id="interface">
+                <div class="panel transparent bottom"></div>
+                <div class="panel transparent"></div>
+                <div class="lives text left"></div>
+                <div class="time text center"></div>
+                <div class="score text right"></div>
+                
+				<div class="bars bottom left" >
+                    <div id="hp" ><span class="text"></span></div>
+                </div>
+                <div class="bars bottom right" >
+                    <div id="mana"><span class="text"></span></div>
+                </div>
+                <div class="alert"></div>
+    </div>
+	<div id="loading">
+		 <div class="button">Play Game</div>
+	   
+		<div class="bars bottom">
+			<div id="load" ><span class="text"></span></div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
